@@ -29,7 +29,7 @@ def create_colored_icon(icon_path, background_color, size=(30, 30)):
 
 
 # Assuming your dataset is in a CSV file named 'coffee_data.csv'
-file_path = 'coffeedata.csv'
+file_path = 'data/coffeedata.csv'
 df = pd.read_csv(file_path)
 
 # Create a folium map centered around the mean latitude and longitude with a title
@@ -57,7 +57,7 @@ for index, row in df.iterrows():
     quality_color = 'red' if row['Quality'] == 1 else 'orange' if row['Quality'] == 2 else 'green'
 
     # Use a different icon for each unique type of coffee
-    base_icon_path = base_icons.get(row['Type'], 'default-coffee-icon.png')
+    base_icon_path = "img/" + base_icons.get(row['Type'], 'default-coffee-icon.png')
     icon_path = create_colored_icon(base_icon_path, quality_color)
 
     # Use a coffee cup icon with the adjusted size based on the Quantity(ml) column
