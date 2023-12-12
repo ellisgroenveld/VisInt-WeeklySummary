@@ -1,0 +1,15 @@
+CoffeeID,Time,Day,Date,Type,Latitude,Longitude,Location,Quantity(ml),Quality,Reason
+1,8:32,Friday,12/8/2023,Coffee with milk,50.8425987,5.7051747,Home,200,2,Waking up
+2,8:58,Friday,12/8/2023,Coffee with milk,50.8425987,5.7051747,Home,200,2,Waking up
+3,11:19,Friday,12/8/2023,Coffee with milk,50.8425987,5.7051747,Home,100,2,Eating
+4,14:36,Friday,12/8/2023,Cappucino,50.8472836,5.7048919,Hairdresser,250,1,Socialising
+5,16:02,Friday,12/8/2023,Coffee with milk,50.8425987,5.7051747,Home,200,2,Eating 
+6,9:46,Saturday,12/9/2023,Coffee with milk,50.8425987,5.7051747,Home,250,2,Waking up
+7,10:56,Saturday,12/9/2023,"Coffee ""verkeerd""",50.8501184,5.7054223,HEMA ,300,3,Train
+8,12:59,Saturday,12/9/2023,Cappucino extra,52.0895298,5.110205,Kiosk,250,3,Train 
+9,13:59,Saturday,12/9/2023,Black Coffee,52.033188,5.0861858,Visitation ,100,1,Socialising
+10,15:00,Saturday,12/9/2023,Black Coffee,52.033188,5.0861858,Visitation ,100,1,Socialising
+11,19:49,Saturday,12/9/2023,Irish Coffee,52.0932044,5.1240988,Pub,300,3,Eating 
+12,10:18,Sunday,12/10/2023,Coffee with milk,50.8425987,5.7051747,Home,200,2,Waking up
+13,11:16,Sunday,12/10/2023,Coffee with milk,50.8425987,5.7051747,Home,200,2,Waking up
+14,13:31,Sunday,12/10/2023,Latte Machiato,50.8485361,5.7116357,Talentino,300,3,Eating 
