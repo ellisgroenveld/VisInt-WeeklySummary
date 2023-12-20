@@ -33,8 +33,10 @@ fig = px.timeline(
         "Notes": "Notes",
     },
     color="Enjoy",
-    hover_name="Notes",
-    color_discrete_sequence=custom_palette,
+    hover_name="Productname",
+    hover_data=["Brand", "Category", "Notes"],
+    color_discrete_sequence=custom_palette
+    
 )
 
 # Update layout
