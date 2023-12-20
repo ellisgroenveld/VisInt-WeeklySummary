@@ -9,11 +9,14 @@ current_dir = os.path.dirname(os.path.realpath(__file__))
 data_path = os.path.join(current_dir, "data", "orderdata.csv")
 data = pd.read_csv(data_path)
 
+# Fill NaN or empty values in the DataFrame with "No Commentary"
+data.fillna(value={"Notes": "No Commentary"}, inplace=True)
+
 # Create a new column for the end date of each event
 data['End_date'] = pd.to_datetime(data['Arrivaldate'])
 
 # Define a custom color palette with more contrast
-custom_palette = px.colors.qualitative.Set2
+custom_palette = px.colors.qualitative.Set3
 
 # Create a figure with the custom color palette
 fig = px.timeline(
@@ -21,7 +24,14 @@ fig = px.timeline(
     x_start="Orderdate",
     x_end="End_date",
     y="Productname",
-    labels={"Productname": "Product", "Orderdate": "Order Date", "End_date": "Arrival Date"},
+    labels={
+        "Productname": "Product",
+        "Orderdate": "Order Date",
+        "End_date": "Arrival Date",
+        "Brand": "Brand",
+        "Category": "Category",
+        "Notes": "Notes",
+    },
     color="Enjoy",
     hover_name="Notes",
     color_discrete_sequence=custom_palette,
@@ -31,7 +41,7 @@ fig = px.timeline(
 fig.update_layout(
     xaxis=dict(title="Date"),
     yaxis=dict(title="Product"),
-    title="Interactive Timeline of electronics I ordered in 2023",
+    title="Interactive Timeline",
 )
 
 # Save the figure as an HTML file named "index.html" in the same subfolder
