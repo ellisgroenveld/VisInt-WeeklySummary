@@ -1,0 +1,24 @@
+OrderID,Website,Cost,Enjoy,Website Country,Category,Brand,Productname,Product Country,Orderdate,Arrivaldate,Success,Notes,Image
+1,bol.com,25,1,Netherlands,Electronics Accessories,Trendfield,Tripod Stand for Tablets,Netherlands,2023-01-06,2023-01-07,Yes,Broke after 4 months of use,tripod.jpg
+2,kpn.nl,475,3,Netherlands,Smartphones,Apple,iPhone 13 Mini 128GB Pink,United States,2023-03-03,2023-03-06,Yes,,iphone.jpg
+3,bol.com,17,3,Netherlands,Electronics Accessories,Baseus,Compact GaN 20w charger,China,2023-03-13,2023-03-14,Yes,,baseuscompact.jpg
+4,eleshop.nl,45,2,Netherlands,Tools,Pine64,Pinecil V2 Soldering iron,Hong Kong,2023-03-27,2023-03-30,Yes,,pinecil.png
+5,megekko.nl,119,3,Netherlands,Computer Storage,Samsung,970 Evo Plus 2TB,South Korea,2023-04-23,2023-04-24,Yes,,970evo.jpg
+6,bax-shop.nl,63,3,Germany,Electronics Accessories,K&M,19793 Tablet PC Stand,Germany,2023-05-27,2023-05-30,Yes,,kmtripod.jpg
+7,megekko.nl,69,3,Netherlands,Computer Parts,Cooler Master,MasterBox NR200P Pink,United States,2023-07-05,2023-07-06,Yes,,nr200p.jpg
+8,gsmpunt.nl,69,3,Netherlands,Electronics Accessories,Baseus,Ambilight 30000mAh,China,2023-07-08,2023-07-09,Yes,,ambilight.jpg
+9,lidl.nl,25,2,Germany,Electronics Accessories,Livarno,laptop lapdesk,Germany,2023-08-10,2023-08-11,Yes,,livarno.jpeg
+10,bol.com,49,2,Netherlands,Audio,Astro,A20 Gaming Headset,South Korea,2023-08-27,2023-08-28,Yes,,astro.png
+11,reichelt.de,101,3,Germany,Computer Storage,Transcend,SSD220S 2TB,Taiwan,2023-09-28,2023-10-02,Yes,,mte220s.jpg
+12,sicomputers,36,3,Netherlands,Computer Parts,Mushkin,Redline 2x8GB DDR4,United States,2023-09-24,2023-09-25,Yes,,mushkin.jpg
+13,amazon.nl,101,1,United States,Computer Storage,Samsung,970 Evo Plus 2TB,South Korea,2023-09-24,2023-09-25,No,"Did not receive item, return got lost, took ages to receive refund",970evo.jpg
+14,ebay.nl,115,3,United States,Audio,Qudelix,5K Bluetooth DAC AMP,China,2023-05-30,2023-05-31,Yes,,q5k.jpg
+15,ebay.nl,58,2,United States,Controllers,RetroFighters,Brawler64 NSO White,United States,2023-06-09,2023-06-14,Yes,,brawler64.jpg
+16,8bitdo.com,92,3,China,Controllers,8bitdo,Ultimate F40 Limited Edition,China,2023-07-14,2023-07-21,Yes,,ultimatef40.jpg
+17,8bitdo.com,27,3,China,Controllers,8bitdo,Lite 2,China,2023-06-15,2023-06-21,Yes,,lite2.jpg
+18,azerty.nl,115,2,Netherlands,Computer Parts,Asrock,B450 Fatal1ty Gaming-ITX,Taiwan,2023-07-05,2023-07-06,Yes,,b450itx.png
+19,aliexpress.com,130,3,China,Computer Storage,Western Digital,SN740 2TB,United States,2023-11-11,2023-11-19,Yes,,sn740.jpeg
+20,aliexpress.com,0,1,China,Gaming Devices,Anbernic,RG Nano,China,2023-06-27,2023-08-29,Yes,"Received item way beyond delivery date, got refund, arrived anyway",rgnano.jpg
+21,bambulab.eu,515,3,United States,Other,Bambu,A1 Mini AMS Lite Combo 3D Printer,China,2023-10-27,2023-09-29,Yes,,a1mini.webp
+22,lenovo.com,605,3,China,Laptops,Lenovo,ThinkPad X13 Yoga Gen 2,China,2023-11-24,2023-11-28,Yes,,x13yoga.webp
+23,store.steampowered.com,569,3,United States,Gaming Devices,Valve,Steam Deck OLED 512GB,United States,2023-11-16,2023-11-24,Yes,,deckoled.jpg
